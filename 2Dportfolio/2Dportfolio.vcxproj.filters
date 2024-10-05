@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{6fd58a66-aba3-4203-bb49-881d701295e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Systems\Window.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Graphics.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Renders\IA\VertexBuffer.h" />
+    <ClInclude Include="Renders\IA\IndexBuffer.h" />
+    <ClInclude Include="Renders\IA\InputLayout.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="Renders\Shaders\IShader.h" />
+    <ClInclude Include="Renders\Shaders\VertexShader.h" />
+    <ClInclude Include="Renders\Shaders\PixelShader.h" />
+    <ClInclude Include="Renders\Resources\VertexType.h" />
+    <ClInclude Include="Renders\Resources\ShaderBuffer.h" />
+    <ClInclude Include="Renders\Resources\GlobalBuffer.h" />
+    <ClInclude Include="Renders\RS\RasterizerState.h" />
+    <ClInclude Include="Systems\Time.h" />
+    <ClInclude Include="Systems\Mouse.h" />
+    <ClInclude Include="Systems\Keyboard.h" />
+    <ClInclude Include="Geometry\Square.h" />
+    <ClInclude Include="Utilities\Math.h" />
+    <ClInclude Include="Geometry\Line.h" />
+    <ClInclude Include="Geometry\Circle.h" />
+    <ClInclude Include="Scene\Scene.h" />
+    <ClInclude Include="Scene\SceneList.h" />
+    <ClInclude Include="Utilities\RenderTexture.h" />
+    <ClInclude Include="Geometry\FilledCircle.h" />
+    <ClInclude Include="Renders\Resources\ViewFactory.h" />
+    <ClInclude Include="Geometry\TextureRect.h" />
+    <ClInclude Include="Utilities\String.h" />
+    <ClInclude Include="Utilities\Path.h" />
+    <ClInclude Include="Systems\GUI\Gui.h" />
+    <ClInclude Include="Utilities\SoundSystem.h" />
+    <ClInclude Include="Renders\Resources\Texture2D.h" />
+    <ClInclude Include="Geometry\AnimationRect.h" />
+    <ClInclude Include="Utilities\Animator.h" />
+    <ClInclude Include="Systems\Camera.h" />
+    <ClInclude Include="Utilities\Singleton.h" />
+    <ClInclude Include="Utilities\FileStream.h" />
+    <ClInclude Include="Scene\MainScene.h" />
+    <ClInclude Include="Scene\ResultScene.h" />
+    <ClInclude Include="Object\Main\SettingUI.h" />
+    <ClInclude Include="Object\Main\Songlist.h" />
+    <ClInclude Include="Object\Play\Accurate.h" />
+    <ClInclude Include="Object\Play\BeatLine.h" />
+    <ClInclude Include="Object\Play\Combo.h" />
+    <ClInclude Include="Object\Play\JudgementLine.h" />
+    <ClInclude Include="Object\Play\Lane.h" />
+    <ClInclude Include="Object\Play\Note.h" />
+    <ClInclude Include="Object\Result\ResultUI.h" />
+    <ClInclude Include="Utilities\Judgement.h" />
+    <ClInclude Include="Utilities\Setting.h" />
+    <ClInclude Include="Object\Play\Key.h" />
+    <ClInclude Include="Object\Play\HitEffect.h" />
+    <ClInclude Include="Object\Play\Frame.h" />
+    <ClInclude Include="Object\Play\Light.h" />
+    <ClInclude Include="Object\Play\LongNote.h" />
+    <ClInclude Include="Song.h" />
+    <ClInclude Include="Scene\PlayScene.h" />
+    <ClInclude Include="Renders\Resources\ConstBuffer.h" />
+    <ClInclude Include="Object\Main\SongInfo.h" />
+    <ClInclude Include="Object\Main\StartButton.h" />
+    <ClInclude Include="Object\BackMain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Systems\Window.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\IA\VertexBuffer.cpp" />
+    <ClCompile Include="Renders\IA\IndexBuffer.cpp" />
+    <ClCompile Include="Renders\IA\InputLayout.cpp" />
+    <ClCompile Include="Systems\Graphics.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Renders\Shaders\IShader.cpp" />
+    <ClCompile Include="Renders\Shaders\VertexShader.cpp" />
+    <ClCompile Include="Renders\Shaders\PixelShader.cpp" />
+    <ClCompile Include="Renders\Resources\VertexType.cpp" />
+    <ClCompile Include="Renders\RS\RasterizeState.cpp" />
+    <ClCompile Include="Systems\Time.cpp" />
+    <ClCompile Include="Systems\Mouse.cpp" />
+    <ClCompile Include="Systems\Keyboard.cpp" />
+    <ClCompile Include="Geometry\Square.cpp" />
+    <ClCompile Include="Utilities\Math.cpp" />
+    <ClCompile Include="Geometry\Line.cpp" />
+    <ClCompile Include="Geometry\Circle.cpp" />
+    <ClCompile Include="Utilities\RenderTexture.cpp" />
+    <ClCompile Include="Geometry\FilledCircle.cpp" />
+    <ClCompile Include="Renders\Resources\ViewFactory.cpp" />
+    <ClCompile Include="Geometry\TextureRect.cpp" />
+    <ClCompile Include="Utilities\String.cpp" />
+    <ClCompile Include="Utilities\Path.cpp" />
+    <ClCompile Include="Systems\GUI\Gui.cpp" />
+    <ClCompile Include="Utilities\SoundSystem.cpp" />
+    <ClCompile Include="Renders\Resources\Texture2D.cpp" />
+    <ClCompile Include="Geometry\AnimationRect.cpp" />
+    <ClCompile Include="Utilities\Animator.cpp" />
+    <ClCompile Include="Systems\Camera.cpp" />
+    <ClCompile Include="Utilities\FileStream.cpp" />
+    <ClCompile Include="Scene\MainScene.cpp" />
+    <ClCompile Include="Scene\PlayScene.cpp" />
+    <ClCompile Include="Scene\ResultScene.cpp" />
+    <ClCompile Include="Object\Main\SettingUI.cpp" />
+    <ClCompile Include="Object\Main\Songlist.cpp" />
+    <ClCompile Include="Object\Play\Accurate.cpp" />
+    <ClCompile Include="Object\Play\BeatLine.cpp" />
+    <ClCompile Include="Object\Play\Combo.cpp" />
+    <ClCompile Include="Object\Play\JudgementLine.cpp" />
+    <ClCompile Include="Object\Play\Lane.cpp" />
+    <ClCompile Include="Object\Play\Note.cpp" />
+    <ClCompile Include="Object\Result\ResultUI.cpp" />
+    <ClCompile Include="Utilities\Judgement.cpp" />
+    <ClCompile Include="Object\Play\Key.cpp" />
+    <ClCompile Include="Object\Play\HitEffect.cpp" />
+    <ClCompile Include="Object\Play\Frame.cpp" />
+    <ClCompile Include="Object\Play\Light.cpp" />
+    <ClCompile Include="Object\Play\LongNote.cpp" />
+    <ClCompile Include="Object\Main\SongInfo.cpp" />
+    <ClCompile Include="Object\Main\StartButton.cpp" />
+    <ClCompile Include="Object\BackMain.cpp" />
+  </ItemGroup>
+</Project>
